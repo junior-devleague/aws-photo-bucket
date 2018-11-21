@@ -41,7 +41,7 @@ You will be creating a Lambda function that makes a request to a public S3 bucke
 
 5. You will be using the `Key` value from your API response to dynamically display all the images from public S3 bucket in your app.js
 
-6. Use public S3 bucket image path to help you display all images `https://s3-us-west-2.amazonaws.com/photo-bucket-tmp-prjct/YOUR_RENDERED_KEY_HERE`.
+6. Use public S3 bucket image path to help you display all images `https://s3-us-west-2.amazonaws.com/treasure-chest-capstone/YOUR_RENDERED_KEY_HERE`.
 
 7. Create a button. When user clicks the button, it should initiate an Axios GET request to your specific Lambda URL, which then triggers your specific lambda to make a request to the `treasure-chest-capstone` S3 bucket, then will dynamically display all the images from the public S3 bucket on to the client-side.
 
