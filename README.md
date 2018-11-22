@@ -48,11 +48,11 @@ You will be creating a Lambda function that makes a request to a public S3 bucke
 8. Use the aws-cli commands referenced below to enable static website hosting on ***YOUR*** S3 bucket. Then run appropriate command to sync your client-side files to your bucket(ie. html, css, js files). Your public url will be in the format of ```http://YOUR_BUCKET_NAME.s3-website-region.amazonaws.com/```. Test url in browser
 
 **Create a bucket**
-- Create a bucket using aws-cli [awscli createbucket](https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html)
+- Create a bucket using aws-cli https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html
 - Give your bucket a name `i-found-the-treasure-YOUR_NAME`
 
 **Make Bucket A Static Website**
-- Make your bucket static using aws-cli [awscli makeBucketStatic](https://docs.aws.amazon.com/cli/latest/reference/s3/website.html)
+- Make your bucket static using aws-cli https://docs.aws.amazon.com/cli/latest/reference/s3/website.html
 
 **Sync client-side files to Static Website Bucket**
 ```
