@@ -45,7 +45,8 @@ You will be creating a Lambda function that makes a request to a public S3 bucke
 
 7. Create a button. When user clicks the button, it should initiate an Axios GET request to your specific Lambda URL, which then triggers your specific lambda to make a request to the `treasure-chest-capstone` S3 bucket, then will dynamically display all the images from the public S3 bucket on to the client-side.
 
-8. Use the aws-cli commands referenced below to enable static website hosting on ***YOUR*** S3 bucket. Then run appropriate command to sync your client-side files to your bucket(ie. html, css, js files). Your public url will be in the format of ```http://YOUR_BUCKET_NAME.s3-website-region.amazonaws.com/```. Test url in browser
+## Stretch Goal - Use `aws-cli` to create bucket and to host your rendered images
+Use the aws-cli commands referenced below to enable static website hosting on ***YOUR*** S3 bucket. Then run appropriate command to sync your client-side files to your bucket(ie. html, css, js files). Your public url will be in the format of ```http://YOUR_BUCKET_NAME.s3-website-region.amazonaws.com/```. Test url in browser
 
 **Create a bucket**
 - Create a bucket using aws-cli https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html
